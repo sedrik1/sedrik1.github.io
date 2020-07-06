@@ -3,7 +3,6 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<!-- https://milligram.io/grids.html -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,10 +23,8 @@
                     <div class="col-lg-12">
                         <span class="sign">Johannes Luukkonen</span>
                         <span class="lang" id="lang">IN ENGLISH</span>
-                        <!-- <span title="Suomeksi / In Finnish" class="lang" id="fi">FIN</span> -->
                     </div>
                 </div>
-                <hr>
                 <div class="row">
                     <div class="col-md-12">
                         <h2>Yhden sivun kauppasovellus (SPA)</h2>
@@ -36,12 +33,90 @@
                 </div>
                 <div class="row repo-content">
                     <div class="col-md-4 bg-1">
-                        <img class="img-responsive" src="https://via.placeholder.com/450" alt="">
+                        <img src="imgs/kauppa/kauppa (1).png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+                        <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modal-content">
+
+                                <div class="mySlides">
+                                    <div class="numbertext">1 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (1).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">2 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (2).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">3 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (3).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">4 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (4).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">5 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (5).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (6).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">7 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (7).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">8 / 8</div>
+                                    <img src="imgs/kauppa/kauppa (8).png" style="width:100%">
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (1).png" style="width:100%" onclick="currentSlide(1)" alt="Etusivu">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (2).png" style="width:100%" onclick="currentSlide(2)" alt="Tuotenäkymä ja avattu ostoskori">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (3).png" style="width:100%" onclick="currentSlide(3)" alt="Tilisivun tilausnäkymä esillä">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (4).png" style="width:100%" onclick="currentSlide(4)" alt="Ostoskori">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (5).png" style="width:100%" onclick="currentSlide(5)" alt="Vahvistettu tilaus">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (6).png" style="width:100%" onclick="currentSlide(6)" alt="Mobiilinäkymä">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (7).png" style="width:100%" onclick="currentSlide(7)" alt="Mobiilinäkymä ja hakutoiminto">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/kauppa/kauppa (8).png" style="width:100%" onclick="currentSlide(8)" alt="Tuotteiden suodatus">
+                                </div>
+                            </div>
+                        </div>    
                     </div>
                     <div class="col-md-8">
                         <p>
                             SPA-periaattella toimiva kauppa. Erittäin opettavainen projekti JS-kehitysraamien mahdollisuuksista ja niissä käytetyistä kehitysperiaatteista,
-                            kuten moduuleista holistiselta kannalta sekä jaettuna komponentteihin, palveluihin, reittivahteihin (route guard) jne., RxJS-kirjaston erinomaisuudesta, JSON Web Tokeneista, 
+                            kuten moduuleista holistiselta kannalta sekä jaettuna komponentteihin, palveluihin, reittivahteihin (route guard) jne., RxJS-kirjaston erinomaisuudesta ja JSON Web Tokeneista. 
                         </p>
                         <br/>
                         <a class="button" target="_blank" href="https://github.com/sedrik1/kauppa">Github-sivulle</a>
@@ -56,7 +131,53 @@
                 </div>
                 <div class="row repo-content">
                     <div class="col-md-4 bg-1">
-                        <img class="img-responsive" src="https://via.placeholder.com/450" alt="">
+                        <img src="imgs/ttsk/ttsk (1).png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+                        <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modal-content">
+
+                                <div class="mySlides">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img src="imgs/ttsk/ttsk (1).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="imgs/ttsk/ttsk (2).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="imgs/ttsk/ttsk (3).png" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="imgs/ttsk/ttsk (4).png" style="width:100%">
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/ttsk/ttsk (1).png" style="width:100%" onclick="currentSlide(1)" alt="Etusivu">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/ttsk/ttsk (2).png" style="width:100%" onclick="currentSlide(2)" alt="Tili toimintoineen. Alla tallennetut sanat">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/ttsk/ttsk (3).png" style="width:100%" onclick="currentSlide(3)" alt="Etusivu vaaleassa tilassa">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="imgs/ttsk/ttsk (4).png" style="width:100%" onclick="currentSlide(4)" alt="Sanavisa">
+                                </div>
+                            </div>
+                        </div>        
                     </div>
                     <div class="col-md-8">
                         <p>
@@ -115,5 +236,6 @@
         <![endif]-->
         
         <script src="js.js" async defer></script>
+        <script src="slideshow.js" async defer></script>
     </body>
 </html>

@@ -14,7 +14,7 @@ function changeLang(language) {
     const h2FI = ['Yhden sivun kauppasovellus (SPA)', 'Tietotekniikkasanakartuttaja', 'c'];
     const h2E = ['Single-page application shop', 'IT word accumulator', 'c'];
     const finD = [
-        `SPA-periaattella toimiva kauppa. Erittäin opettavainen projekti JS-kehitysraamien mahdollisuuksista ja niissä käytetyistä kehitysperiaatteista, kuten moduuleista holistiselta kannalta sekä jaettuna komponentteihin, palveluihin, reittivahteihin (route guard) jne., RxJS-kirjaston erinomaisuudesta, JSON Web Tokeneista.`,
+        `SPA-periaattella toimiva kauppa. Erittäin opettavainen projekti JS-kehitysraamien mahdollisuuksista ja niissä käytetyistä kehitysperiaatteista, kuten moduuleista holistiselta kannalta sekä jaettuna komponentteihin, palveluihin, reittivahteihin (route guard) jne., RxJS-kirjaston erinomaisuudesta ja JSON Web Tokeneista.`,
 
         `Kokonaan itse tehty palvelu PHP:llä, JavaScriptillä ja SQL:llä. Ohjelmistoratkaisupinona (solution stack) käytin XAMPP:ia, joka kätevästi tarjoaa paikallisen Apache-palvelimen ja MySQL-relaatiotietokannan. Projektin aihe oli luoda palvelu suomenkielisiä tietotekniikkasanoja varten, koska oman kokemukseni mukaan kotimainen termistö on käytännössä kokonaan sivuutettu anglismien hyödyntämisen puolesta. 
         
