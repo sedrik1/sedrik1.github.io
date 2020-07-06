@@ -1,9 +1,9 @@
 function getLinks() {
-    return document.body.querySelectorAll("a");
+    return document.body.getElementsByClassName("link-button");
 }
 
 function getParagraphs() {
-    return document.body.querySelectorAll("p");
+    return document.body.getElementsByClassName("information");
 }
 
 function getH2() {
@@ -16,7 +16,7 @@ function changeLang(language) {
     const finD = [
         `SPA-periaattella toimiva kauppa. Erittäin opettavainen projekti JS-kehitysraamien mahdollisuuksista ja niissä käytetyistä kehitysperiaatteista, kuten moduuleista holistiselta kannalta sekä jaettuna komponentteihin, palveluihin, reittivahteihin (route guard) jne., RxJS-kirjaston erinomaisuudesta ja JSON Web Tokeneista.`,
 
-        `Kokonaan itse tehty palvelu PHP:llä, JavaScriptillä ja SQL:llä. Ohjelmistoratkaisupinona (solution stack) käytin XAMPP:ia, joka kätevästi tarjoaa paikallisen Apache-palvelimen ja MySQL-relaatiotietokannan. Projektin aihe oli luoda palvelu suomenkielisiä tietotekniikkasanoja varten, koska oman kokemukseni mukaan kotimainen termistö on käytännössä kokonaan sivuutettu anglismien hyödyntämisen puolesta. 
+        `Kokonaan itsetehty palvelu PHP:llä, JavaScriptillä ja SQL:llä. Ohjelmistoratkaisupinona (solution stack) käytin XAMPP:ia, joka kätevästi tarjoaa paikallisen Apache-palvelimen ja MySQL-relaatiotietokannan. Projektin aihe oli luoda palvelu suomenkielisiä tietotekniikkasanoja varten, koska oman kokemukseni mukaan kotimainen termistö on käytännössä kokonaan sivuutettu anglismien hyödyntämisen puolesta. 
         
         Projekti antoi hyvän läpileikkauksen selain- ja palvelinpuolen toiminnasta, sillä minun oli luotava kaikki toiminnallisuus tietokannasta datansiirtoon PHP:llä ja siitä AJAX:in avulla selainpuolelle ja takaisin tietokantaan. Lisäksi rekisteröityminen ja siten tilien henkilökohtaisten sanasyötteiden ongelmien ratkominen oli mukavaa aivojumppaa. 
         
