@@ -20,7 +20,8 @@ h1, h2 {
 .lang {
     background-color: #A83264;
     border: 0.1rem solid #A83264;
-    margin-left: 10px;
+    margin-left: 0.7rem;
+    margin-right: 5.7rem;
     padding: 0.3rem;
     border-radius: .4rem;
     float: right;
@@ -58,12 +59,12 @@ main {
     padding: 25px;
 }
 
-.button {
+.link-button {
     transition: 1s;
     background-color: #A83264;
     border: 0.1rem solid #A83264;
     border-radius: .4rem;
-    color: #fff;
+    color: white;
     cursor: pointer;
     display: inline-block;
     font-size: 1.1rem;
@@ -78,12 +79,11 @@ main {
     white-space: nowrap;
 }
 
-.button:hover {
+.link-button:hover {
     background-color: #F57FB0;
     border: 0.1rem solid #F57FB0;
     color: white;
     text-decoration: none;
-    cursor: pointer;
 }
 
 @media only screen and (max-width: 991px) {
