@@ -212,9 +212,47 @@
                     </div>
                 </div>
                 <div class="row repo-content">
-<!--                     <div class="col-md-4 bg-1">
-                        <img class="img-responsive" src="https://via.placeholder.com/450" alt="">
-                    </div> -->
+                    <div class="col-md-4 bg-1">
+                        <img src="imgs/turku/turku (1).png" style="width:100%" onclick="openModalTwo();currentSlide(1)" class="hover-shadow cursor">
+
+                        <div id="myModalTwo" class="modal">
+                            <span class="close cursor" onclick="closeModalTwo()">&times;</span>
+                            <div class="modal-content">
+    
+                                <div class="mySlidesTwo">
+                                    <div class="numbertext">1 / 5</div>
+                                    <img src="imgs/turku/turku (1).png" style="width:100%">
+                                </div>
+    
+                                <div class="mySlidesTwo">
+                                    <div class="numbertext">2 / 5</div>
+                                    <img src="imgs/turku/turku (2).png" style="width:100%">
+                                </div>
+    
+                                <div class="mySlidesTwo">
+                                    <div class="numbertext">3 / 5</div>
+                                    <img src="imgs/turku/turku (3).png" style="width:100%">
+                                </div>
+    
+                                <a class="prev" onclick="plusSlidesTwo(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlidesTwo(1)">&#10095;</a>
+    
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+    
+                                <div class="column">
+                                    <img class="demoTwo cursor" src="imgs/turku/turku (1).png" style="width:100%" onclick="currentSlide(1)" alt="Etusivu">
+                                </div>
+                                <div class="column">
+                                    <img class="demoTwo cursor" src="imgs/turku/turku (2).png" style="width:100%" onclick="currentSlide(2)" alt="Tili toimintoineen. Alla tallennetut sanat">
+                                </div>
+                                <div class="column">
+                                    <img class="demoTwo cursor" src="imgs/turku/turku (3).png" style="width:100%" onclick="currentSlide(3)" alt="Etusivu vaaleassa tilassa">
+                                </div>
+                            </div>
+                        </div>  
+                    </div>      
                     <div class="col-md-8">
                         <p class="information">
                             Turun kaupungin julkaisemaa avointa dataa yhden sivun sovelluksessa. Vielä kesken, joten moni suunniteltu ominaisuus on toteuttamatta.
@@ -234,5 +272,6 @@
         <script src="js.js" async defer></script>
         <script src="slideshow.js" async defer></script>
         <script src="slideshow1.js" async defer></script>
+        <script src="slideshow2.js" async defer></script>
     </body>
 </html>
